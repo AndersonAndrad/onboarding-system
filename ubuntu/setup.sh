@@ -13,3 +13,5 @@ bash "$SCRIPTS_DIR/zsh.sh"
 bash "$SCRIPTS_DIR/commit.sh"
 
 echo "Setup complete."
+
+exec zsh

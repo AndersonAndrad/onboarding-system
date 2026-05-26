@@ -4,9 +4,6 @@ set -e
 
 echo "⚙️ Configuring global Git..."
 
-# permit git work on wsl
-sudo chown -R $USER:$USER .git
-
 # User info
 git config --global user.name "Anderson Andrade"
 git config --global user.email "anderson_andrade_@outlook.com"
